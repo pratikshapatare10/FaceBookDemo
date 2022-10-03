@@ -69,8 +69,8 @@ public class LoginTest extends BaseClass {
 		
 		logger.info("Starting verify logo test..");
 	
-		lgn.setLoginPageUN("rutujataware62@gmail.com");
-		lgn.setLoginPagePWD("sanjana710");
+		lgn.setLoginPageUN("");
+		lgn.setLoginPagePWD("");
 		lgn.clickLoginPageLgnBtn();
 		Thread.sleep(10000);
 		home.verifyLogo();
